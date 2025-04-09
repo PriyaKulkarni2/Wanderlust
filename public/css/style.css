@@ -1,0 +1,176 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-weight: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: white;
+} 
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links, .f-info-socials{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.f-info{
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: space-evenly;
+}
+
+.f-info-socials i{
+    margin-right: 0.5rem;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links:hover a{
+    text-decoration: underline;
+}
+
+.card-listing{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-image-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+
+/* new listing page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+} 
+
+/* edit listing page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+} 
+/* 
+show image page */
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+/* all listing */
+.all-listing{
+    text-decoration: none;
+}
+
+/* map */
+#map { height: 350px; }
+
+/* General container adjustments */
+.row {
+    padding: 0.5rem;
+  }
+  
+  /* Card styling */
+  .card-listing {
+    border: none;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .card-listing:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Image styling */
+  .card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+  }
+  
+  /* Text content */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-text {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin-left: 2%;
+  }
+  
+  .card-text b {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Remove link underline */
+  .all-listing {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* search-option */
+  .search input {
+    border-radius: 20px;
+  }
+
+  .search .form-control:focus {
+    border-color: #fe424d; /* Airbnb red */
+    box-shadow: 0 0 0 0.2rem rgba(255, 56, 92, 0.25); /* subtle red glow */
+    outline: none;
+  }
+
+  .search button{
+    color: #fe424d;
+    border-color: #fe424d;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .btn-search:hover {
+    background-color: #fe424d !important;
+    border-color: #fe424d !important;
+    color: white !important;
+  } 
